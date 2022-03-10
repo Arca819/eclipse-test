@@ -7,14 +7,14 @@ public class Chapter4 {
 
 	public static void main(String[] args) {
 
-		// タスクインスタンスの作成
+		// インスタンスの作成
 		Task task1 = new Task("2021年10月21日", "牛乳を買う");
 		Task task2 = new Task("2021年9月15日", "○○社面談");
 		Task task3 = new Task("2021年12月4日", "手帳を買う");
 		Task task4 = new Task("2021年8月10日", "散髪に行く");
 		Task task5 = new Task("2021年11月9日", "スクールの課題を解く");
 		
-		// タスクリストの作成
+		// リストの作成
 		List<Task> list = new ArrayList<Task>();
 		
 		list.add(task1);

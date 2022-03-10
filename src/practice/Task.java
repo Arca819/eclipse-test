@@ -4,10 +4,9 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Task {
-	public LocalDate todoDate; // タスク実行日
-	public String todoTask; // タスク内容
+	public LocalDate todoDate;  // タスク実行日
+	public String todoTask;     // タスク内容
 
-	
 	// コンストラクタ
 	public Task(String date, String todoTask) {
 		this.todoDate = convertToLocalDate(date, "yyyy年M月d日");
